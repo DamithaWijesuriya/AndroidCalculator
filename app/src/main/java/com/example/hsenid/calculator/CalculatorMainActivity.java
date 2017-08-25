@@ -129,7 +129,7 @@ public class CalculatorMainActivity extends AppCompatActivity {
         calculatorOperations.setDisplayToString(KeybordInput, editTextDisplay);
     }
 
-    public void BackSpace(View view) {
+    public void ClickonBackSpace(View view) {
         editTextDisplay = (EditText) findViewById(R.id.txtDisplay);
         String displayString = editTextDisplay.getText().toString();
         StringBuilder stringBuilder = new StringBuilder(displayString);
