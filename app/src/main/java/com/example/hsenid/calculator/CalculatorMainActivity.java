@@ -12,7 +12,6 @@ public class CalculatorMainActivity extends AppCompatActivity {
     private String KeybordInput;
     private EditText editTextDisplay;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,7 +24,6 @@ public class CalculatorMainActivity extends AppCompatActivity {
         calculatorOperations.setDisplayToString(KeybordInput, editTextDisplay);
 
     }
-
     public void ClickOnplusorMinus(View view) {
 
     }
@@ -41,7 +39,6 @@ public class CalculatorMainActivity extends AppCompatActivity {
         calculatorOperations.setDisplayToString(KeybordInput, editTextDisplay);
 
     }
-
 
     public void clickonPlus(View view) {
         editTextDisplay = (EditText) findViewById(R.id.txtDisplay);
