@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hsenid.calculator.CalculatorMainActivity">
+
+    <EditText
+        android:id="@+id/txtDisplay"
+        android:layout_width="336dp"
+        android:layout_height="38dp"
+        android:layout_x="13dp"
+        android:layout_y="18dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:onClick="clickonTen"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="13dp" />
+
+    <Button
+        android:id="@+id/plusbtn"
+        android:layout_width="71dp"
+        android:layout_height="52dp"
+        android:layout_x="279dp"
+        android:layout_y="299dp"
+        android:onClick="clickonPlus"
+        android:text="+"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <Button
+        android:id="@+id/substractbtn"
+        android:layout_width="71dp"
+        android:layout_height="52dp"
+        android:layout_x="277dp"
+        android:layout_y="226dp"
+        android:onClick="clickonSubstract"
+        android:text="-"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <Button
+        android:id="@+id/equalbtn"
+        android:layout_width="71dp"
+        android:layout_height="52dp"
+        android:layout_x="278dp"
+        android:layout_y="377dp"
+        android:onClick="clickonequal"
+        android:text="="
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <Button
+        android:id="@+id/plus_minusBtn"
+        android:layout_width="68dp"
+        android:layout_height="50dp"
+        android:layout_x="191dp"
+        android:layout_y="382dp"
+        android:onClick="ClickOnplusorMinus"
+        android:text="+/-"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <Button
+        android:id="@+id/threebtn"
+        android:layout_width="66dp"
+        android:layout_height="48dp"
+        android:layout_x="192dp"
+        android:layout_y="307dp"
+        android:onClick="clickonThree"
+        android:text="3"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <Button
+        android:id="@+id/sixbtn"
+        android:layout_width="66dp"
+        android:layout_height="48dp"
+        android:layout_x="192dp"
+        android:layout_y="233dp"
+        android:onClick="clickonSix"
+        android:text="6"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <Button
+        android:id="@+id/dotbtn"
+        android:layout_width="66dp"
+        android:layout_height="48dp"
+        android:layout_x="107dp"
+        android:layout_y="386dp"
+        android:onClick="clickonDot"
+        android:text="."
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <Button
+        android:id="@+id/zerobtn"
+        android:layout_width="70dp"
+        android:layout_height="49dp"
+        android:layout_x="12dp"
+        android:layout_y="389dp"
+        android:onClick="ClickOnZero"
+        android:text="0"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <Button
+        android:id="@+id/twobtn"
+        android:layout_width="68dp"
+        android:layout_height="50dp"
+        android:layout_x="98dp"
+        android:layout_y="308dp"
+        android:onClick="clickonTwo"
+        android:text="2"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <Button
+        android:id="@+id/onebtn"
+        android:layout_width="64dp"
+        android:layout_height="50dp"
+        android:layout_x="16dp"
+        android:layout_y="309dp"
+        android:onClick="ClickonOne"
+        android:text="1"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <Button
+        android:id="@+id/fivebtn"
+        android:layout_width="68dp"
+        android:layout_height="50dp"
+        android:layout_x="97dp"
+        android:layout_y="243dp"
+        android:onClick="clickonFive"
+        android:text="5"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <Button
+        android:id="@+id/fourbtn"
+        android:layout_width="64dp"
+        android:layout_height="50dp"
+        android:layout_x="17dp"
+        android:layout_y="244dp"
+        android:onClick="clickonFour"
+        android:text="4"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <Button
+        android:id="@+id/eightbtn"
+        android:layout_width="68dp"
+        android:layout_height="50dp"
+        android:layout_x="91dp"
+        android:layout_y="166dp"
+        android:onClick="ClickOnEight"
+        android:text="8"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <Button
+        android:id="@+id/sevenBtn"
+        android:layout_width="64dp"
+        android:layout_height="50dp"
+        android:layout_x="7dp"
+        android:layout_y="166dp"
+        android:onClick="ClickOnSeven"
+        android:text="7"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <Button
+        android:id="@+id/ninebtn"
+        android:layout_width="66dp"
+        android:layout_height="48dp"
+        android:layout_x="187dp"
+        android:layout_y="168dp"
+        android:onClick="ClickOnNine"
+        android:text="9"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <Button
+        android:id="@+id/multiplebtn"
+        android:layout_width="71dp"
+        android:layout_height="52dp"
+        android:layout_x="279dp"
+        android:layout_y="161dp"
+        android:onClick="ClickOnMultiple"
+        android:text="*"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <Button
+        android:id="@+id/Percentagebtn"
+        android:layout_width="66dp"
+        android:layout_height="48dp"
+        android:layout_x="190dp"
+        android:layout_y="102dp"
+        android:onClick="ClickOnPercentage"
+        android:text="%"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="68dp"
+        android:layout_height="48dp"
+        android:layout_x="94dp"
+        android:layout_y="104dp"
+        android:onClick="ClickonBackSpace"
+        android:text="Bsp"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <Button
+        android:id="@+id/Acbtn"
+        android:layout_width="64dp"
+        android:layout_height="50dp"
+        android:layout_x="11dp"
+        android:layout_y="103dp"
+        android:onClick="ClickOnAC"
+        android:text="AC"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <Button
+        android:id="@+id/devidebtn"
+        android:layout_width="71dp"
+        android:layout_height="52dp"
+        android:layout_x="280dp"
+        android:layout_y="94dp"
+        android:onClick="ClickonDivide"
+        android:text="÷"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="91dp" />
+</android.widget.AbsoluteLayout>
